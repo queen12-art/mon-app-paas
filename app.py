@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Bonjour ! C'est mon application PaaS déployée avec succès."
+    return "Bonjour ! C'est mon application PaaS déployée avec succès.La journee facile etait hier"
 
 if __name__ == '__main__':
     # Heroku et les serveurs cloud imposent un port dynamique
